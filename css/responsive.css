@@ -1,0 +1,68 @@
+@media (max-width: 600px){
+    .container{
+        padding: 0px 10px;
+    }
+    .navtop{
+        display: none;
+    }
+    .navigation{
+        display: none;
+    }
+    .header{
+        display: none;
+    }
+    .main{
+        display: none;
+    }
+    .header1{
+        display: block;
+    }
+    .swiggy-offer{
+        display: block;
+    }
+    .swig{
+        display: block;
+    }
+    input{
+        outline: none;
+        border: none;
+    }
+}
+/* large device */
+@media (min-width:767px) and (max-width:1110px) {
+    .container{
+        padding: 0px 10px;
+    }
+    .navtop{
+        
+    }
+    .navigation{
+        
+    }
+    .header {
+        padding: 10px 0px 40px 0px;
+    }
+    .head-img{
+        width: 25%;
+    }
+    .head-img img{
+        display: block;
+        height: 150px;
+    }
+    .head-info{
+        width: 50%;
+    }
+    .head-offer{
+        width: 40%;
+    }
+    .offer-flex{
+        padding: 20px 0px 0px 20px; 
+       
+    }
+    .active-header-tab .banner {
+        bottom: 5px;
+    }
+    .main{
+        
+    }
+}
